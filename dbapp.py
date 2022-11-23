@@ -2,6 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 import DeleteOrder as d
 import AddOrder as ao
+import PrintPending as p
 
 # Prompted for info, one at a time
     #ID's auto generated (biggest existing num + 1)
@@ -51,6 +52,7 @@ def main():
                     print("Ship an order")
                 elif (userin==5): 
                     print("print pending orders") 
+                    p.printPendingOrder(connection, cursor)
                 elif (userin==6): 
                     print("more options")
             
