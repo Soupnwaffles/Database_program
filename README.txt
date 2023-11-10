@@ -1,5 +1,4 @@
-Keerthan Velagalety
-Assignment 4 done with Python
+Database program to add, delete, update a database. 
 
 If on Linux, and if python 3 is installed, will need to do the following command in the terminal: 
 
